@@ -15,6 +15,12 @@
 		CBA77C5F25B8A8FB0023CD5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA77C3425B8A8F70023CD5D /* ContentView.swift */; };
 		CBA77C6025B8A8FB0023CD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA77C3525B8A8FB0023CD5D /* Assets.xcassets */; };
 		CBA77C6125B8A8FB0023CD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA77C3525B8A8FB0023CD5D /* Assets.xcassets */; };
+		CBA77C7625B8AB920023CD5D /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA77C7425B8AB920023CD5D /* Sandwiches.xcassets */; };
+		CBA77C7725B8AB920023CD5D /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA77C7425B8AB920023CD5D /* Sandwiches.xcassets */; };
+		CBA77C7825B8AB920023CD5D /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA77C7525B8AB920023CD5D /* Sandwich.swift */; };
+		CBA77C7925B8AB920023CD5D /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA77C7525B8AB920023CD5D /* Sandwich.swift */; };
+		CBA77C7F25B8B08E0023CD5D /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA77C7E25B8B08E0023CD5D /* SandwichDetail.swift */; };
+		CBA77C8025B8B08E0023CD5D /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA77C7E25B8B08E0023CD5D /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		CBA77C5525B8A8FB0023CD5D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA77C5925B8A8FB0023CD5D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CBA77C5B25B8A8FB0023CD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA77C7425B8AB920023CD5D /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
+		CBA77C7525B8AB920023CD5D /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		CBA77C7E25B8B08E0023CD5D /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				CBA77C3325B8A8F70023CD5D /* SandwhichesApp.swift */,
 				CBA77C3425B8A8F70023CD5D /* ContentView.swift */,
+				CBA77C7E25B8B08E0023CD5D /* SandwichDetail.swift */,
+				CBA77C7525B8AB920023CD5D /* Sandwich.swift */,
+				CBA77C7425B8AB920023CD5D /* Sandwiches.xcassets */,
 				CBA77C3525B8A8FB0023CD5D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -275,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA77C7625B8AB920023CD5D /* Sandwiches.xcassets in Resources */,
 				CBA77C6025B8A8FB0023CD5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA77C7725B8AB920023CD5D /* Sandwiches.xcassets in Resources */,
 				CBA77C6125B8A8FB0023CD5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +324,8 @@
 			files = (
 				CBA77C5E25B8A8FB0023CD5D /* ContentView.swift in Sources */,
 				CBA77C5C25B8A8FB0023CD5D /* SandwhichesApp.swift in Sources */,
+				CBA77C7825B8AB920023CD5D /* Sandwich.swift in Sources */,
+				CBA77C7F25B8B08E0023CD5D /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +335,8 @@
 			files = (
 				CBA77C5F25B8A8FB0023CD5D /* ContentView.swift in Sources */,
 				CBA77C5D25B8A8FB0023CD5D /* SandwhichesApp.swift in Sources */,
+				CBA77C7925B8AB920023CD5D /* Sandwich.swift in Sources */,
+				CBA77C8025B8B08E0023CD5D /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
