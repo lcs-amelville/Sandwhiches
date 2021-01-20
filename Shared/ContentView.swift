@@ -18,6 +18,8 @@ struct ContentView: View {
                 ForEach (store.sandwiches) { sandwich in
             SandwichCell(sandwich: sandwich)
                 }
+                .onMove(perform: moveSandwiches)
+                .onDelete(perform: deleteSandwiches)
                 
                 HStack {
                     Spacer()
@@ -39,7 +41,7 @@ struct ContentView: View {
         }
     }
     
-    func moveSandiches(from: IndexSet, to: Int) {
+    func moveSandwiches(from: IndexSet, to: Int) {
         withAnimation {
             store.sandwiches.move(fromOffsets: from, toOffset: to)
         }
