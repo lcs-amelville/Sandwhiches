@@ -27,6 +27,9 @@ struct ContentView: View {
                 
             }
         .navigationTitle("Sandwiches")
+            
+            Text("Select a Sandwich")
+                .font(.largeTitle)
         }
     }
 }
