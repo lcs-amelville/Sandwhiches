@@ -31,10 +31,14 @@ struct ContentView: View {
             }
         .navigationTitle("Sandwiches")
             .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
                 #if os(iOS)
                 EditButton()
                 #endif
+                }
+                ToolbarItem(placement: .navigationBarLeading) {
                 Button("Add", action: makeSandwich)
+                }
             }
             
             Text("Select a Sandwich")
